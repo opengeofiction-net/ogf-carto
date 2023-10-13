@@ -1,4 +1,35 @@
-## [Unreleased](https://github.com/gravitystorm/openstreetmap-carto/compare/v5.5.1...master)
+## [Unreleased](https://github.com/gravitystorm/openstreetmap-carto/compare/v5.7.0...master)
+
+## [v5.7.0](https://github.com/gravitystorm/openstreetmap-carto/compare/v5.6.2...v5.7.0) - 2023-01-11
+### Changes
+- Unpaved roads are now indicated on the map (#3399)
+- Country label placement improved, particularly for countries in the north (#4616)
+- Added elevation to wilderness huts (#4648)
+- New index for low-zoom performance (#4617)
+- Added a script to switch between script variations for CJK languages (#4707)
+- Ordering fixes for piers (#4703)
+- Numerous CI improvements
+
+## [v5.6.2](https://github.com/gravitystorm/openstreetmap-carto/compare/v5.6.1...v5.6.2) - 2022-11-10
+### Changes
+- Locally installed fonts fixed (#4672)
+
+## [v5.6.1](https://github.com/gravitystorm/openstreetmap-carto/compare/v5.6.0...v5.6.1) - 2022-08-12
+### Changes
+- Rendering of water areas on zooms 0 to 4 fixed (#4640)
+
+## [v5.6.0](https://github.com/gravitystorm/openstreetmap-carto/compare/v5.5.1...v5.6.0) - 2022-08-03
+### Major Changes
+- The style now uses locally installed fonts, using `scripts/get-fonts.sh` to download the fonts.
+
+### Changes
+- Code and performance improvements (#4591, #4601)
+- Recommend disabling PostgreSQL JIT for rendering (#4592)
+- Change tree and tree row colours to the same colour as areas with trees (#4448)
+- Don't label public transport shelters with elevation (#4313)
+- Update code of conduct to explicitly prohibit doxxing (#4554)
+- Add parcel lockers (#4512)
+- Render name labels of bays and straights from z14 only, and lakes from z5 (#3750)
 
 ## [v5.5.1](https://github.com/gravitystorm/openstreetmap-carto/compare/v5.5.0...v5.5.1) - 2022-07-13
 ### Changes
